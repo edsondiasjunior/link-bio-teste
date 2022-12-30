@@ -1,11 +1,5 @@
-
 @charset "UTF";
-
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;500;800&display=swap');
-
-:root{
-    --fonte-padrao: 'Epilogue', sans-serif;
-}
 
 *{
     margin: 0px;
@@ -18,7 +12,7 @@ body{
     font-size: 100%;
     background-color: black;
     color: white;
-    font-family:var(--fonte-padrao); 
+    font-family: Epilogue, sans-serif ;
 }
 
 .conteudo-principal{
@@ -28,8 +22,7 @@ body{
     justify-content: space-around;
 }
 
-.conteudo-principal-escrito{
-    
+.conteudo-principal-escrito{  
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -38,6 +31,7 @@ body{
 
 .conteudo-principal-escrito-nome{
     font-weight: 200;
+
 }
 
 .conteudo-principal-escrito-titulo{
@@ -61,7 +55,6 @@ body{
     width: 200px;
     cursor: pointer;
     margin: 5px;
-  
 }
 .conteudo-principal-escrito-botao span{
     position: relative;
@@ -69,7 +62,7 @@ body{
 }
 
 
-.conteudo-principal-escrito-botao span:after {
+.conteudo-principal-escrito-botao span:after{
     content: "\00bb";
     position: absolute;
     opacity: 0;
@@ -84,19 +77,18 @@ body{
     transition: 0.4s;
 }
 
-.conteudo-principal-escrito-botao:hover span {
+.conteudo-principal-escrito-botao:hover span{
     padding-right: 25px;
   }
 
-.conteudo-principal-escrito-botao:hover span:after {
+.conteudo-principal-escrito-botao:hover span:after{
     opacity: 1;
     right: 0;
-  }
+}
 
 
 img.eric{
     min-width: 50%;
-    
 }
 
 img{
