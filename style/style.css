@@ -29,6 +29,7 @@ body{
 }
 
 .conteudo-principal-escrito{
+    
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -93,6 +94,21 @@ body{
   }
 
 
-img{
-    min-width: 700px;
+img.eric{
+    min-width: 50%;
+    
 }
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container{
+    max-width: 768px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
+
